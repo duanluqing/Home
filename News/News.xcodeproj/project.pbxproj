@@ -7,25 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00487A23BB5D646EE5EEE5A8 /* libPods-News.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2BAAAE194429C8EAB82CB6 /* libPods-News.a */; };
+		04319A181D73221F000095F0 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04319A171D73221F000095F0 /* News.storyboard */; };
+		04319A1B1D732267000095F0 /* CZHeadLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04319A1A1D732267000095F0 /* CZHeadLineController.m */; };
+		04319A1E1D732E28000095F0 /* CZHeadLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04319A1D1D732E28000095F0 /* CZHeadLineCell.m */; };
 		047DFA261D72F70700C691BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DFA251D72F70700C691BA /* main.m */; };
 		047DFA291D72F70700C691BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DFA281D72F70700C691BA /* AppDelegate.m */; };
-		047DFA2C1D72F70700C691BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DFA2B1D72F70700C691BA /* ViewController.m */; };
-		047DFA2F1D72F70700C691BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047DFA2D1D72F70700C691BA /* Main.storyboard */; };
 		047DFA311D72F70700C691BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047DFA301D72F70700C691BA /* Assets.xcassets */; };
 		047DFA341D72F70700C691BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047DFA321D72F70700C691BA /* LaunchScreen.storyboard */; };
+		04B8636D1D73CD070009649B /* CZHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B8636C1D73CD070009649B /* CZHTTPManager.m */; };
+		04B863701D73D0A20009649B /* CZApiManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B8636F1D73D0A20009649B /* CZApiManage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04319A171D73221F000095F0 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		04319A191D732267000095F0 /* CZHeadLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZHeadLineController.h; sourceTree = "<group>"; };
+		04319A1A1D732267000095F0 /* CZHeadLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHeadLineController.m; sourceTree = "<group>"; };
+		04319A1C1D732E28000095F0 /* CZHeadLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZHeadLineCell.h; sourceTree = "<group>"; };
+		04319A1D1D732E28000095F0 /* CZHeadLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHeadLineCell.m; sourceTree = "<group>"; };
 		047DFA211D72F70700C691BA /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047DFA251D72F70700C691BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		047DFA271D72F70700C691BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		047DFA281D72F70700C691BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		047DFA2A1D72F70700C691BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		047DFA2B1D72F70700C691BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		047DFA2E1D72F70700C691BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		047DFA301D72F70700C691BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047DFA331D72F70700C691BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047DFA351D72F70700C691BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B8636B1D73CD070009649B /* CZHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZHTTPManager.h; sourceTree = "<group>"; };
+		04B8636C1D73CD070009649B /* CZHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHTTPManager.m; sourceTree = "<group>"; };
+		04B8636E1D73D0A20009649B /* CZApiManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZApiManage.h; sourceTree = "<group>"; };
+		04B8636F1D73D0A20009649B /* CZApiManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZApiManage.m; sourceTree = "<group>"; };
+		1A2BAAAE194429C8EAB82CB6 /* libPods-News.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-News.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68757E5D1803C7EF8A35F350 /* Pods-News.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News.release.xcconfig"; path = "Pods/Target Support Files/Pods-News/Pods-News.release.xcconfig"; sourceTree = "<group>"; };
+		DB8C355F72C3C22F7CC39073 /* Pods-News.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News.debug.xcconfig"; path = "Pods/Target Support Files/Pods-News/Pods-News.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00487A23BB5D646EE5EEE5A8 /* libPods-News.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04319A131D7320D1000095F0 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				04319A141D7320D1000095F0 /* Controller */,
+				04319A151D7320D1000095F0 /* Model */,
+				04319A161D7320D1000095F0 /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		04319A141D7320D1000095F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04319A191D732267000095F0 /* CZHeadLineController.h */,
+				04319A1A1D732267000095F0 /* CZHeadLineController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04319A151D7320D1000095F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04319A161D7320D1000095F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04319A171D73221F000095F0 /* News.storyboard */,
+				04319A1C1D732E28000095F0 /* CZHeadLineCell.h */,
+				04319A1D1D732E28000095F0 /* CZHeadLineCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		047DFA181D72F70700C691BA = {
 			isa = PBXGroup;
 			children = (
 				047DFA231D72F70700C691BA /* News */,
 				047DFA221D72F70700C691BA /* Products */,
+				D1923B3EB87A964758E7F1D7 /* Pods */,
+				6E1D2313B77BDBDAB74FF128 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +110,10 @@
 		047DFA231D72F70700C691BA /* News */ = {
 			isa = PBXGroup;
 			children = (
+				04B8636A1D73CCC00009649B /* Tool */,
+				04319A131D7320D1000095F0 /* News */,
 				047DFA271D72F70700C691BA /* AppDelegate.h */,
 				047DFA281D72F70700C691BA /* AppDelegate.m */,
-				047DFA2A1D72F70700C691BA /* ViewController.h */,
-				047DFA2B1D72F70700C691BA /* ViewController.m */,
-				047DFA2D1D72F70700C691BA /* Main.storyboard */,
 				047DFA301D72F70700C691BA /* Assets.xcassets */,
 				047DFA321D72F70700C691BA /* LaunchScreen.storyboard */,
 				047DFA351D72F70700C691BA /* Info.plist */,
@@ -79,6 +130,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		04B8636A1D73CCC00009649B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				04B8636B1D73CD070009649B /* CZHTTPManager.h */,
+				04B8636C1D73CD070009649B /* CZHTTPManager.m */,
+				04B8636E1D73D0A20009649B /* CZApiManage.h */,
+				04B8636F1D73D0A20009649B /* CZApiManage.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		6E1D2313B77BDBDAB74FF128 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A2BAAAE194429C8EAB82CB6 /* libPods-News.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1923B3EB87A964758E7F1D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB8C355F72C3C22F7CC39073 /* Pods-News.debug.xcconfig */,
+				68757E5D1803C7EF8A35F350 /* Pods-News.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 047DFA381D72F70700C691BA /* Build configuration list for PBXNativeTarget "News" */;
 			buildPhases = (
+				99383CE3BD46CE8BD7F26154 /* [CP] Check Pods Manifest.lock */,
 				047DFA1D1D72F70700C691BA /* Sources */,
 				047DFA1E1D72F70700C691BA /* Frameworks */,
 				047DFA1F1D72F70700C691BA /* Resources */,
+				9E6985040BC58E098F114E1D /* [CP] Embed Pods Frameworks */,
+				1D121018F1285165FADA9192 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +187,7 @@
 		047DFA191D72F70700C691BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CZ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = mac;
 				TargetAttributes = {
@@ -138,35 +221,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				047DFA341D72F70700C691BA /* LaunchScreen.storyboard in Resources */,
+				04319A181D73221F000095F0 /* News.storyboard in Resources */,
 				047DFA311D72F70700C691BA /* Assets.xcassets in Resources */,
-				047DFA2F1D72F70700C691BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D121018F1285165FADA9192 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-News/Pods-News-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99383CE3BD46CE8BD7F26154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6985040BC58E098F114E1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-News/Pods-News-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		047DFA1D1D72F70700C691BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047DFA2C1D72F70700C691BA /* ViewController.m in Sources */,
 				047DFA291D72F70700C691BA /* AppDelegate.m in Sources */,
 				047DFA261D72F70700C691BA /* main.m in Sources */,
+				04B863701D73D0A20009649B /* CZApiManage.m in Sources */,
+				04B8636D1D73CD070009649B /* CZHTTPManager.m in Sources */,
+				04319A1E1D732E28000095F0 /* CZHeadLineCell.m in Sources */,
+				04319A1B1D732267000095F0 /* CZHeadLineController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		047DFA2D1D72F70700C691BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				047DFA2E1D72F70700C691BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		047DFA321D72F70700C691BA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,6 +388,7 @@
 		};
 		047DFA391D72F70700C691BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB8C355F72C3C22F7CC39073 /* Pods-News.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = News/Info.plist;
@@ -273,6 +400,7 @@
 		};
 		047DFA3A1D72F70700C691BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68757E5D1803C7EF8A35F350 /* Pods-News.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = News/Info.plist;
@@ -301,6 +429,7 @@
 				047DFA3A1D72F70700C691BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
