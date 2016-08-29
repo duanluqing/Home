@@ -15,6 +15,9 @@
 		047DFA291D72F70700C691BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DFA281D72F70700C691BA /* AppDelegate.m */; };
 		047DFA311D72F70700C691BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047DFA301D72F70700C691BA /* Assets.xcassets */; };
 		047DFA341D72F70700C691BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047DFA321D72F70700C691BA /* LaunchScreen.storyboard */; };
+		048949341D73E7DA00EE664C /* CZHeadLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 048949331D73E7DA00EE664C /* CZHeadLineModel.m */; };
+		048949381D73E8A700EE664C /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 048949371D73E8A700EE664C /* NSObject+Log.m */; };
+		04B65B761D74176300C8C48D /* CZNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B65B751D74176300C8C48D /* CZNewsController.m */; };
 		04B8636D1D73CD070009649B /* CZHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B8636C1D73CD070009649B /* CZHTTPManager.m */; };
 		04B863701D73D0A20009649B /* CZApiManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B8636F1D73D0A20009649B /* CZApiManage.m */; };
 /* End PBXBuildFile section */
@@ -32,6 +35,12 @@
 		047DFA301D72F70700C691BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047DFA331D72F70700C691BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047DFA351D72F70700C691BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048949321D73E7DA00EE664C /* CZHeadLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZHeadLineModel.h; sourceTree = "<group>"; };
+		048949331D73E7DA00EE664C /* CZHeadLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHeadLineModel.m; sourceTree = "<group>"; };
+		048949361D73E8A700EE664C /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
+		048949371D73E8A700EE664C /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
+		04B65B741D74176300C8C48D /* CZNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZNewsController.h; sourceTree = "<group>"; };
+		04B65B751D74176300C8C48D /* CZNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZNewsController.m; sourceTree = "<group>"; };
 		04B8636B1D73CD070009649B /* CZHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZHTTPManager.h; sourceTree = "<group>"; };
 		04B8636C1D73CD070009649B /* CZHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHTTPManager.m; sourceTree = "<group>"; };
 		04B8636E1D73D0A20009649B /* CZApiManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZApiManage.h; sourceTree = "<group>"; };
@@ -68,6 +77,8 @@
 			children = (
 				04319A191D732267000095F0 /* CZHeadLineController.h */,
 				04319A1A1D732267000095F0 /* CZHeadLineController.m */,
+				04B65B741D74176300C8C48D /* CZNewsController.h */,
+				04B65B751D74176300C8C48D /* CZNewsController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -75,6 +86,8 @@
 		04319A151D7320D1000095F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				048949321D73E7DA00EE664C /* CZHeadLineModel.h */,
+				048949331D73E7DA00EE664C /* CZHeadLineModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -130,9 +143,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		048949351D73E8A700EE664C /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				048949361D73E8A700EE664C /* NSObject+Log.h */,
+				048949371D73E8A700EE664C /* NSObject+Log.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
 		04B8636A1D73CCC00009649B /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				048949351D73E8A700EE664C /* Log */,
 				04B8636B1D73CD070009649B /* CZHTTPManager.h */,
 				04B8636C1D73CD070009649B /* CZHTTPManager.m */,
 				04B8636E1D73D0A20009649B /* CZApiManage.h */,
@@ -285,7 +308,10 @@
 				047DFA261D72F70700C691BA /* main.m in Sources */,
 				04B863701D73D0A20009649B /* CZApiManage.m in Sources */,
 				04B8636D1D73CD070009649B /* CZHTTPManager.m in Sources */,
+				048949341D73E7DA00EE664C /* CZHeadLineModel.m in Sources */,
+				04B65B761D74176300C8C48D /* CZNewsController.m in Sources */,
 				04319A1E1D732E28000095F0 /* CZHeadLineCell.m in Sources */,
+				048949381D73E8A700EE664C /* NSObject+Log.m in Sources */,
 				04319A1B1D732267000095F0 /* CZHeadLineController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "CZHeadLineCell.h"
-@interface CZHeadLineController : UICollectionViewController
+@interface CZHeadLineController : UIViewController
 
 @end

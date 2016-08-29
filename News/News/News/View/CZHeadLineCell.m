@@ -7,15 +7,21 @@
 //
 
 #import "CZHeadLineCell.h"
+#import "CZHeadLineModel.h"
+#import <UIImageView+WebCache.h>
 
 @interface CZHeadLineCell ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
-@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UIPageControl *PageControl;
 
 @end
 
 @implementation CZHeadLineCell
+-(void)setHeadLine:(CZHeadLineModel *)headLine
+{
+    _headLine=headLine;
+    //设置图片
+    [self.imageView sd_setImageWithURL:[NSURL URLWithString:headLine.imgsrc]];
 
+}
 @end

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class CZHeadLineModel;
 @interface CZHeadLineCell : UICollectionViewCell
-
+@property (nonatomic, strong) CZHeadLineModel *headLine;
 @end
