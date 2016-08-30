@@ -33,7 +33,7 @@
 {
     _news  = news;
     //设置图片
-    [self.iconView sd_setImageWithURL:[NSURL URLWithString:_news.imgsrc]];
+    [self.iconView sd_setImageWithURL:[NSURL URLWithString:_news.imgsrc]placeholderImage:nil options:SDWebImageRetryFailed|SDWebImageLowPriority];
     //设置标题
     self.titleLabel.text = _news.title;
     //设置简介
@@ -46,7 +46,7 @@
             //取出对应图片
             CZNewsImageModel *model = _news.imgextra[idx];
             //设置图片
-            [obj sd_setImageWithURL:[NSURL URLWithString:model.imgsrc]];
+            [obj sd_setImageWithURL:[NSURL URLWithString:model.imgsrc]placeholderImage:nil options:SDWebImageRetryFailed|SDWebImageLowPriority];
         }];
     }
 }

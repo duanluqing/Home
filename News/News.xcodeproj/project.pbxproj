@@ -12,6 +12,8 @@
 		04319A1B1D732267000095F0 /* CZHeadLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04319A1A1D732267000095F0 /* CZHeadLineController.m */; };
 		04319A1E1D732E28000095F0 /* CZHeadLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04319A1D1D732E28000095F0 /* CZHeadLineCell.m */; };
 		045183041D752CA300C61373 /* CZNewsImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 045183031D752CA300C61373 /* CZNewsImageModel.m */; };
+		045183061D75852800C61373 /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 045183051D75852800C61373 /* topic_news.json */; };
+		045183091D7585A300C61373 /* CZChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 045183081D7585A300C61373 /* CZChannelModel.m */; };
 		047DFA261D72F70700C691BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DFA251D72F70700C691BA /* main.m */; };
 		047DFA291D72F70700C691BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DFA281D72F70700C691BA /* AppDelegate.m */; };
 		047DFA311D72F70700C691BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047DFA301D72F70700C691BA /* Assets.xcassets */; };
@@ -33,6 +35,9 @@
 		04319A1D1D732E28000095F0 /* CZHeadLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHeadLineCell.m; sourceTree = "<group>"; };
 		045183021D752CA300C61373 /* CZNewsImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZNewsImageModel.h; sourceTree = "<group>"; };
 		045183031D752CA300C61373 /* CZNewsImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZNewsImageModel.m; sourceTree = "<group>"; };
+		045183051D75852800C61373 /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		045183071D7585A300C61373 /* CZChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZChannelModel.h; sourceTree = "<group>"; };
+		045183081D7585A300C61373 /* CZChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZChannelModel.m; sourceTree = "<group>"; };
 		047DFA211D72F70700C691BA /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047DFA251D72F70700C691BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		047DFA271D72F70700C691BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +106,8 @@
 				04B65B781D746A8B00C8C48D /* CZNewsModel.m */,
 				045183021D752CA300C61373 /* CZNewsImageModel.h */,
 				045183031D752CA300C61373 /* CZNewsImageModel.m */,
+				045183071D7585A300C61373 /* CZChannelModel.h */,
+				045183081D7585A300C61373 /* CZChannelModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				047DFA251D72F70700C691BA /* main.m */,
+				045183051D75852800C61373 /* topic_news.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -260,6 +268,7 @@
 			files = (
 				047DFA341D72F70700C691BA /* LaunchScreen.storyboard in Resources */,
 				04319A181D73221F000095F0 /* News.storyboard in Resources */,
+				045183061D75852800C61373 /* topic_news.json in Resources */,
 				047DFA311D72F70700C691BA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B65B7C1D74830E00C8C48D /* CZNewsCell.m in Sources */,
+				045183091D7585A300C61373 /* CZChannelModel.m in Sources */,
 				047DFA291D72F70700C691BA /* AppDelegate.m in Sources */,
 				047DFA261D72F70700C691BA /* main.m in Sources */,
 				04B863701D73D0A20009649B /* CZApiManage.m in Sources */,
