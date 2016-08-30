@@ -11,6 +11,7 @@
 		04319A181D73221F000095F0 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04319A171D73221F000095F0 /* News.storyboard */; };
 		04319A1B1D732267000095F0 /* CZHeadLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04319A1A1D732267000095F0 /* CZHeadLineController.m */; };
 		04319A1E1D732E28000095F0 /* CZHeadLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04319A1D1D732E28000095F0 /* CZHeadLineCell.m */; };
+		045183041D752CA300C61373 /* CZNewsImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 045183031D752CA300C61373 /* CZNewsImageModel.m */; };
 		047DFA261D72F70700C691BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DFA251D72F70700C691BA /* main.m */; };
 		047DFA291D72F70700C691BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047DFA281D72F70700C691BA /* AppDelegate.m */; };
 		047DFA311D72F70700C691BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047DFA301D72F70700C691BA /* Assets.xcassets */; };
@@ -18,6 +19,8 @@
 		048949341D73E7DA00EE664C /* CZHeadLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 048949331D73E7DA00EE664C /* CZHeadLineModel.m */; };
 		048949381D73E8A700EE664C /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 048949371D73E8A700EE664C /* NSObject+Log.m */; };
 		04B65B761D74176300C8C48D /* CZNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B65B751D74176300C8C48D /* CZNewsController.m */; };
+		04B65B791D746A8B00C8C48D /* CZNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B65B781D746A8B00C8C48D /* CZNewsModel.m */; };
+		04B65B7C1D74830E00C8C48D /* CZNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B65B7B1D74830E00C8C48D /* CZNewsCell.m */; };
 		04B8636D1D73CD070009649B /* CZHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B8636C1D73CD070009649B /* CZHTTPManager.m */; };
 		04B863701D73D0A20009649B /* CZApiManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B8636F1D73D0A20009649B /* CZApiManage.m */; };
 /* End PBXBuildFile section */
@@ -28,6 +31,8 @@
 		04319A1A1D732267000095F0 /* CZHeadLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHeadLineController.m; sourceTree = "<group>"; };
 		04319A1C1D732E28000095F0 /* CZHeadLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZHeadLineCell.h; sourceTree = "<group>"; };
 		04319A1D1D732E28000095F0 /* CZHeadLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHeadLineCell.m; sourceTree = "<group>"; };
+		045183021D752CA300C61373 /* CZNewsImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZNewsImageModel.h; sourceTree = "<group>"; };
+		045183031D752CA300C61373 /* CZNewsImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZNewsImageModel.m; sourceTree = "<group>"; };
 		047DFA211D72F70700C691BA /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047DFA251D72F70700C691BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		047DFA271D72F70700C691BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +46,10 @@
 		048949371D73E8A700EE664C /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
 		04B65B741D74176300C8C48D /* CZNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZNewsController.h; sourceTree = "<group>"; };
 		04B65B751D74176300C8C48D /* CZNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZNewsController.m; sourceTree = "<group>"; };
+		04B65B771D746A8A00C8C48D /* CZNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZNewsModel.h; sourceTree = "<group>"; };
+		04B65B781D746A8B00C8C48D /* CZNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZNewsModel.m; sourceTree = "<group>"; };
+		04B65B7A1D74830E00C8C48D /* CZNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZNewsCell.h; sourceTree = "<group>"; };
+		04B65B7B1D74830E00C8C48D /* CZNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZNewsCell.m; sourceTree = "<group>"; };
 		04B8636B1D73CD070009649B /* CZHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZHTTPManager.h; sourceTree = "<group>"; };
 		04B8636C1D73CD070009649B /* CZHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZHTTPManager.m; sourceTree = "<group>"; };
 		04B8636E1D73D0A20009649B /* CZApiManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZApiManage.h; sourceTree = "<group>"; };
@@ -88,6 +97,10 @@
 			children = (
 				048949321D73E7DA00EE664C /* CZHeadLineModel.h */,
 				048949331D73E7DA00EE664C /* CZHeadLineModel.m */,
+				04B65B771D746A8A00C8C48D /* CZNewsModel.h */,
+				04B65B781D746A8B00C8C48D /* CZNewsModel.m */,
+				045183021D752CA300C61373 /* CZNewsImageModel.h */,
+				045183031D752CA300C61373 /* CZNewsImageModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,6 +111,8 @@
 				04319A171D73221F000095F0 /* News.storyboard */,
 				04319A1C1D732E28000095F0 /* CZHeadLineCell.h */,
 				04319A1D1D732E28000095F0 /* CZHeadLineCell.m */,
+				04B65B7A1D74830E00C8C48D /* CZNewsCell.h */,
+				04B65B7B1D74830E00C8C48D /* CZNewsCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -304,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B65B7C1D74830E00C8C48D /* CZNewsCell.m in Sources */,
 				047DFA291D72F70700C691BA /* AppDelegate.m in Sources */,
 				047DFA261D72F70700C691BA /* main.m in Sources */,
 				04B863701D73D0A20009649B /* CZApiManage.m in Sources */,
@@ -313,6 +329,8 @@
 				04319A1E1D732E28000095F0 /* CZHeadLineCell.m in Sources */,
 				048949381D73E8A700EE664C /* NSObject+Log.m in Sources */,
 				04319A1B1D732267000095F0 /* CZHeadLineController.m in Sources */,
+				04B65B791D746A8B00C8C48D /* CZNewsModel.m in Sources */,
+				045183041D752CA300C61373 /* CZNewsImageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

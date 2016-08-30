@@ -19,6 +19,7 @@
     });
     return instance;
 }
+
 -(void)requestHeadLineDatWithURL:(NSString *)url success:(void (^)(id))success error:(void (^)(NSError *))error
 {
     [[CZHTTPManager sharedManage]GET:url parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
@@ -30,5 +31,19 @@
             error(errorInFo);
         }
     }];
+}
+
+-(void)requestNewsDatWithURL:(NSString *)url success:(void (^)(id))success error:(void (^)(NSError *))error
+{
+  [[CZHTTPManager sharedManage]GET:url parameters:nil progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+      if (success) {
+          success(responseObject);
+      }
+  } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull errorInfo) {
+      if (error) {
+          error(errorInfo);
+      }
+      
+  }];
 }
 @end
